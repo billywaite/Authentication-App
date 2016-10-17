@@ -25,3 +25,7 @@ If the test suite passes, you'll be ready to run the app in a local server:
 ```
 $ rails server
 ```
+
+```
+View app in production on Heroku here: https://stormy-springs-25107.herokuapp.com/
+```
