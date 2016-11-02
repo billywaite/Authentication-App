@@ -29,5 +29,3 @@ $ rails server
 View app in production below 
 
 > https://stormy-springs-25107.herokuapp.com/
-
-## Note: The database of users is not stored in github
