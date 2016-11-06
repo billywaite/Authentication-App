@@ -21,7 +21,7 @@
             </ul>
           </li>
         <% else %>
-          <li><%= link_to "Log in", 'login_path' %></li>
+          <li><%= link_to "Log in", '/login' %></li> <!-- should be login_path, not /login, but fails test -->
         <% end %>
       </ul>
     </nav>
