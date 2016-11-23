@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   	get		'/about', 	  to: 'static_pages#about'
   	get		'/contact',   to: 'static_pages#contact'
   	get		'/signup', 	  to: 'users#new'
-  	post	'/signup',	  to: 'users#create'  #produces an error when this is not present, shouldn't need this with users resource
+  	post	'/signup',	  to: 'users#create'
   	get		'/login', 	  to: 'sessions#new'
   	post	'/login', 	  to: 'sessions#create'
   	delete	'/logout', 	to: 'sessions#destroy'
